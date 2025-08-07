@@ -9,6 +9,7 @@ Implementa la función deployWrappedToken, que permite desplegar nuevos contrato
 Funciones de para cambiar el feeReceiver y el depósitFee con sus respectivas access control.
 
 #### Funcionalidad del WrapperERC20
+Este contrato tiene que objetivo poder mintear un token WrapperERC20 1:1 entregando su respectivo token subyasente y que lo pueda retirar entregando WrapperERC20 para este luego quemarse.
 - deposit: permite al usuario depositar el token subyacente y recibir el WrapperERC20.
 
 - depositWithPermit: habilita el depósito utilizando permisos EIP-2612, lo que permite autorizar a un usuario y al contrato a depositar tokens en su nombre.
